@@ -14,7 +14,7 @@
 		9EF7C0D518B878A10084DFA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7C0D418B878A10084DFA0 /* main.m */; };
 		9EF7C0D918B878A10084DFA0 /* IBDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7C0D818B878A10084DFA0 /* IBDAppDelegate.m */; };
 		9EF7C0DC18B878A10084DFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF7C0DA18B878A10084DFA0 /* Main.storyboard */; };
-		9EF7C0DF18B878A10084DFA0 /* IBDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7C0DE18B878A10084DFA0 /* IBDViewController.m */; };
+		9EF7C0DF18B878A10084DFA0 /* IBDBroadcastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7C0DE18B878A10084DFA0 /* IBDBroadcastViewController.m */; };
 		9EF7C0E118B878A10084DFA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EF7C0E018B878A10084DFA0 /* Images.xcassets */; };
 		9EF7C0E818B878A20084DFA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF7C0E718B878A20084DFA0 /* XCTest.framework */; };
 		9EF7C0E918B878A20084DFA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF7C0C818B878A10084DFA0 /* Foundation.framework */; };
@@ -47,8 +47,8 @@
 		9EF7C0D718B878A10084DFA0 /* IBDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBDAppDelegate.h; sourceTree = "<group>"; };
 		9EF7C0D818B878A10084DFA0 /* IBDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBDAppDelegate.m; sourceTree = "<group>"; };
 		9EF7C0DB18B878A10084DFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EF7C0DD18B878A10084DFA0 /* IBDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBDViewController.h; sourceTree = "<group>"; };
-		9EF7C0DE18B878A10084DFA0 /* IBDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBDViewController.m; sourceTree = "<group>"; };
+		9EF7C0DD18B878A10084DFA0 /* IBDBroadcastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBDBroadcastViewController.h; sourceTree = "<group>"; };
+		9EF7C0DE18B878A10084DFA0 /* IBDBroadcastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBDBroadcastViewController.m; sourceTree = "<group>"; };
 		9EF7C0E018B878A10084DFA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9EF7C0E618B878A20084DFA0 /* iBeaconDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF7C0E718B878A20084DFA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -123,8 +123,8 @@
 				9EF7C0D718B878A10084DFA0 /* IBDAppDelegate.h */,
 				9EF7C0D818B878A10084DFA0 /* IBDAppDelegate.m */,
 				9EF7C0DA18B878A10084DFA0 /* Main.storyboard */,
-				9EF7C0DD18B878A10084DFA0 /* IBDViewController.h */,
-				9EF7C0DE18B878A10084DFA0 /* IBDViewController.m */,
+				9EF7C0DD18B878A10084DFA0 /* IBDBroadcastViewController.h */,
+				9EF7C0DE18B878A10084DFA0 /* IBDBroadcastViewController.m */,
 				9EF7C0E018B878A10084DFA0 /* Images.xcassets */,
 				9EF7C0CF18B878A10084DFA0 /* Supporting Files */,
 			);
@@ -260,7 +260,7 @@
 			files = (
 				9EF7C0D918B878A10084DFA0 /* IBDAppDelegate.m in Sources */,
 				9EF7C0D518B878A10084DFA0 /* main.m in Sources */,
-				9EF7C0DF18B878A10084DFA0 /* IBDViewController.m in Sources */,
+				9EF7C0DF18B878A10084DFA0 /* IBDBroadcastViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +471,7 @@
 				9EF7C0F918B878A20084DFA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EF7C0FA18B878A20084DFA0 /* Build configuration list for PBXNativeTarget "iBeaconDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +480,7 @@
 				9EF7C0FC18B878A20084DFA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
